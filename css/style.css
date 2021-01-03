@@ -1,0 +1,70 @@
+/*.main{
+    opacity: 0;
+    display: none;
+    transition: opacity 2s ease-in;
+  }
+  
+  */
+body{
+    overflow-x: hidde;
+
+}
+  #home{
+    background-color: black!important;
+    height: 100vh;
+    width: 100%;
+  
+}
+.title::before{
+    content: '';
+    background: white;
+    height: 5px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.form-group .form-control{
+  display: block;
+  height:36px;
+  width: 100%;
+  background-color:#ffffff00;
+  border-width: 0 0 2px 0!important;
+  border-color: #FFDA92;
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.jsbtn{
+    background-color: black;
+    color: white;
+}
+#services{
+    width: 100%;
+    height: 100vh;
+}
+#promos{
+    height: 35vh;
+    width: 100%;
+    background-image: url(/images/bathtub\ 1.png);
+}
+#about{
+    height: 75vh;
+    width: 100%;
+}
+#contact{
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(/images/fatherdaughter\ 1.png);
+}
+
+#footer{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+}
+#footer li{
+    list-style: none;
+}
